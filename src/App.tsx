@@ -1,22 +1,13 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import gorilla from './assets/gorilla.jpg'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
-    <>
+    <> 
+    <h1>3d printers</h1>
       <div>
-        <img src={viteLogo} className="logo" alt="Vite logo" />
-        <img src={reactLogo} className="logo react" alt="React logo" />
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
+        <img src={gorilla} height={400}alt="memes" />
       </div>
     </>
   )
